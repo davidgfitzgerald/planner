@@ -1,0 +1,18 @@
+@import '../../styles/variables';
+
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background-color:$dark-red;
+  min-height: 12vh;
+  align-items: flex-start;
+
+  .nav-item {
+    margin: auto;
+    padding: 1.5vh;
+    font-size: 30px;
+    background-color: $light-red;
+    color: white;
+  }
+}

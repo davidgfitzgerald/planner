@@ -1,0 +1,10 @@
+.diary-container {
+  grid-area: diary;
+  display: flex;
+
+  margin: 2vh;
+  min-height: 50vh;
+
+  border-style: solid;
+  border-width: 1px;
+}
