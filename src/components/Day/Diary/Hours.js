@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
 import {range} from '../../../utils'
-import './hours.scss'
+import './Hours.scss'
+import Hour from "./Hour";
 
-class Hours extends Component {
+export class Hours extends Component {
   render() {
     return (
-      <div className="hours-container">
+      <>
         {range(24).map(i => {
-          return <div key={i}>{i}</div>
+          return <Hour key={i} number={i}/>
         })}
-      </div>
+      </>
     );
   }
 }
 
-export default Hours;

@@ -1,0 +1,16 @@
+@import 'src/styles/variables.scss';
+
+.hour {
+  min-height: 8vh;
+  padding: 0.5vw;
+}
+
+.even {
+  background-color: $light-grey;
+}
+
+.zero {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+

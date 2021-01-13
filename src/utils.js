@@ -1,5 +1,5 @@
-function range(size, startAt = 0) {
+const range = (size, startAt = 0) => {
   return [...Array(size).keys()].map(i => i + startAt);
 }
 
-export { range }
+export {range}

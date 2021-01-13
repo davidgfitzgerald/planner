@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  background-color:$dark-red;
+  //background-color:$dark-red;
   min-height: 12vh;
   align-items: flex-start;
 
@@ -12,7 +12,8 @@
     margin: auto;
     padding: 1.5vh;
     font-size: 30px;
-    background-color: $light-red;
+    background-color: grey;
+    border-radius: 5px;
     color: white;
   }
 }

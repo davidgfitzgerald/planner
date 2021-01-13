@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Food from "./Food";
 import Money from "./Money";
 import Steps from "./Steps";
-import './notes.scss'
+import './Notes.scss'
 
 class Notes extends Component {
   render() {

@@ -1,0 +1,23 @@
+@import 'src/styles/variables.scss';
+
+.diary-image-container {
+  position: relative;
+  overflow: hidden;
+
+  h1 {
+    padding: 75px;
+    position: relative;
+    left: 25vw;
+    z-index: 2;
+    color: white;
+  }
+
+  img {
+    position: absolute;
+    left: 0;
+    top: -10vh;
+    width: 100%;
+    height: auto;
+    opacity: 1.0;
+  }
+}

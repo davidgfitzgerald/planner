@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './nav.scss'
+import './Nav.scss'
 import NavItem from "./NavItem";
 
 class Nav extends Component {
